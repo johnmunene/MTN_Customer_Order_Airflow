@@ -11,6 +11,8 @@ import pandas as pd
 import wget
 import zipfile
 import psycopg2
+from sqlalchemy import create_engine
+import mysql.connector as sql
 # Define Postgres connection details
 pg_host = 'localhost'
 pg_database = 'Customer_Subscription'
